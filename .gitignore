@@ -1,0 +1,25 @@
+# ---- Large / raw data files (regenerate with the scripts) ----
+# The database and raw transaction CSVs are far too large for GitHub (100 MB limit).
+*.db
+*.csv
+# ...but DO keep the small final aggregated output so the analysis is viewable:
+!vendor_sales_summary.csv
+
+# ---- Logs ----
+*.log
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- Python ----
+__pycache__/
+*.pyc
+
+# ---- macOS ----
+.DS_Store
+
+# ---- Claude's earlier auto-generated reference version (not part of the project) ----
+reference_solution/
+
+# Claude Code local settings
+.claude/

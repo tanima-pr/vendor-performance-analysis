@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/Library/Frameworks/Python.framework/Versions/3.14/bin/python3 -m pip install --quiet reportlab)",
+      "Bash(/Library/Frameworks/Python.framework/Versions/3.14/bin/python3 -c \"import reportlab; print\\('reportlab ready:', reportlab.Version\\)\")",
+      "Bash(/Library/Frameworks/Python.framework/Versions/3.14/bin/python3 generate_report.py)",
+      "Bash(awk '{print $5, $9}')",
+      "Bash(/Library/Frameworks/Python.framework/Versions/3.14/bin/python3 -c \"from pypdf import PdfReader; print\\('Pages:', len\\(PdfReader\\('Vendor_Performance_Report.pdf'\\).pages\\)\\)\")",
+      "Bash(git --version)",
+      "Bash(gh --version)",
+      "Bash(gh auth *)",
+      "Bash(git config *)",
+      "Bash(cd /Users/tanimagarg/Downloads/data; echo \"=== files here ===\"; ls -la | grep -vE \"^d\" | awk '{print $5, $9}'; echo \"=== notebooks here ===\"; ls *.ipynb 2>/dev/null; echo \"=== notebook in home dir? ===\"; ls -la ~/*.ipynb 2>/dev/null | awk '{print $5, $9}'; echo \"=== reference_solution ===\"; ls reference_solution/ 2>/dev/null)",
+      "Bash(awk '{print $5, $9, $10, $11}')"
+    ]
+  }
+}
