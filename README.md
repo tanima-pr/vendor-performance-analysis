@@ -92,3 +92,4 @@ python generate_report.py
 3. Consolidate small orders to capture bulk discounts.
 4. Release the $15.6M of frozen capital by aligning purchases to sales velocity.
 5. Differentiate vendor strategy — high-volume for total profit, low-volume for margin.
+
