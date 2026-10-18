@@ -5,7 +5,7 @@ across **126 vendors** and **10,692 vendor–brand combinations** to improve pro
 inventory efficiency. Built with **SQL, Python, and Power BI**.
 
 ---
-![Vendor Performance Dashboard](vendor-dashboard.png)
+![Vendor Performance Dashboard](vendor-dashboard.jpg)
 
 *Power BI dashboard covering 15M+ purchase and sales records. There's no public live link because the dataset uses Row-Level Security, and Power BI doesn't allow RLS-protected reports on public "Publish to web" links.*
 
