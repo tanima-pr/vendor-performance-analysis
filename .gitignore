@@ -23,3 +23,15 @@ reference_solution/
 
 # Claude Code local settings
 .claude/
+
+# ---- Spark outputs (regenerate with the scripts in spark/) ----
+spark/output/
+spark/output_scala/
+spark/stream/
+spark/sample_data/
+spark-warehouse/
+metastore_db/
+derby.log
+.pytest_cache/
+venv/
+spark/output*/

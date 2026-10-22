@@ -97,3 +97,12 @@ python generate_report.py
 4. Release the $15.6M of frozen capital by aligning purchases to sales velocity.
 5. Differentiate vendor strategy — high-volume for total profit, low-volume for margin.
 
+
+---
+
+## ⚡ Spark Engineering Layer
+
+The same pipeline rebuilt in Apache Spark (PySpark + Scala, plus a Structured Streaming version) with
+data-quality checks, a to-the-cent reconciliation, 13 pytest tests and GitHub Actions CI.
+On the full 15.2M-row dataset it runs in 38 seconds vs ~72 minutes for the original pandas + SQLite path,
+with identical results. See [`spark/README.md`](spark/README.md).

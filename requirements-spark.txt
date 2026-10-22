@@ -1,0 +1,7 @@
+# For the PySpark / Scala / streaming parts in spark/ (Java 17 or 21 must be installed)
+pyspark==4.0.1
+pandas
+numpy
+pyarrow
+sqlalchemy
+pytest
