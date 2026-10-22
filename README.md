@@ -1,9 +1,10 @@
 # Vendor Performance Analysis — End-to-End Data Analytics Project
 
+[![CI](https://github.com/tanima-pr/vendor-performance-analysis/actions/workflows/ci.yml/badge.svg)](https://github.com/tanima-pr/vendor-performance-analysis/actions/workflows/ci.yml)
+
 An end-to-end data analytics case study analysing a full year of purchasing and sales data
 across **126 vendors** and **10,692 vendor–brand combinations** to improve profitability and
 inventory efficiency. Built with **SQL, Python, and Power BI**.
-
 ---
 ![Vendor Performance Dashboard](vendor-dashboard.jpg)
 
